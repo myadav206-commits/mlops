@@ -58,8 +58,3 @@ with mlflow.start_run():
     )
     
     print(f"\n MAE: {mae:.2f} | RMSE: {rmse:.2f} | R2: {r2:.4f}")
-    
-    
-    
-
-
