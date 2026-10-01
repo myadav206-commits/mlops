@@ -36,7 +36,7 @@ print(f"\nCleaned file saved locally: {clean_path}")
 # ==============================
 s3 = boto3.client("s3")
 
-BUCKET = "mlops-house-prediction"
+BUCKET = "mlops-house1"
 
 def upload_processed_data(local_path):
 
