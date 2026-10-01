@@ -10,7 +10,7 @@ import numpy as np
 
 # Fetched cleaned data from S3
 s3=boto3.client('s3')
-BUCKET="mlops-house-prediction"
+BUCKET="mlops-house1"
 KEY="proccessed/2026-09-25/Mlops_house_predication_clean_v1.csv"
 
 def fectch_data():
